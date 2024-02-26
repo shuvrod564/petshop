@@ -855,9 +855,9 @@ export function CategoryMegaMenu() {
                                             <div className="h-[calc(100vh-275px)] overflow-y-auto overflow-x-hidden">
                                                 <div className="block lg:columns-5 md:columns-4 sm:columns-4 columns-5 gap-4"> 
                                                     {
-                                                        item.sublinks.map((item)=>{
+                                                        item.sublinks.map((item, index)=>{
                                                             return(
-                                                                <div key={item.key} className="block break-inside-avoid mb-5">
+                                                                <div key={index} className="block break-inside-avoid mb-5">
                                                                     <p className="text-black font-semibold mb-3 text-sm sm:text-base">{item.category_name}</p>
                                                                     <ul className="flex flex-col gap-3">
                                                                         {

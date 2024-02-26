@@ -46,7 +46,7 @@ const Header = () => {
     <>
       <div className={nav_sticky ? 'fixed top-0 left-0 w-full h-auto z-50 sticky_nav' : null}>
         <nav className={`
-          bg-white py-2 
+          bg-[#f2f2f260] shadow py-2 
         `}>
           <div className="container flex flex-row justify-between">
             <div className="inline-flex gap-3">
@@ -68,9 +68,9 @@ const Header = () => {
 
             <div className="inline-flex justify-end items-center sm:gap-x-4 gap-0 col">
               <NavSearch />
-              <button className="text-dark inline-flex items-center gap-2 font-medium text-lg">
+              <Link href={"/login"} className="text-dark inline-flex items-center gap-2 font-medium text-lg">
                 <FaRegCircleUser className="text-xl" /> <span className="hidden sm:inline-block">Login</span>
-              </button>
+              </Link>
               <button className="text-dark inline-flex items-center gap-2 font-medium text-lg mx-4">
                 <span className="relative">
                   <IoCartOutline className="text-2xl" />
