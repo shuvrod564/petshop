@@ -115,7 +115,7 @@ const ProductsWidgets = ({title}) => {
           {
             data.map((item, index)=> {
               return( 
-                <div key={index} className="border border-[#ADDFFF] rounded-lg p-2 group transition-all duration-300 hover:bg-primary hover:border-primary">
+                <div key={index} className="border border-secondary-light rounded-lg p-2 group transition-all duration-300 hover:bg-primary hover:border-primary">
                   <div className="relative">
                     <Link href={"#"} className="block bg-[#F5F5F5] rounded-lg">
                       <Image src={item.thumbnail} width={500} height={500} alt={item.title} className="w-full h-[230px] object-contain object-center" />
@@ -151,7 +151,7 @@ const ProductsWidgets = ({title}) => {
                       <span className="text-gray group-hover:text-bg-gray text-xs font-medium line-through transition-all duration-300">{item.price}</span>
                     </div>
                     <div className="text-center mb-5 mt-4"> 
-                      <div className="relative inline-block px-6 pt-1 pb-2 bg-[#ADDFFF] leading-[1.1]">
+                      <div className="relative inline-block px-6 pt-1 pb-2 bg-secondary leading-[1.1]">
                         {/* <Image src={"/images/icons/off-ribbon.svg"} width={200} height={50} alt="tag bg" className="absolute top-0 left-0 object-contain object-center w-full h-full" /> */}
                         <span className="text-xs text-primary relative z-20">UP TO {item.discount} OFF</span>
                         <span className="block w-3 h-full bg-white absolute top-0 left-0 clip-left transition-all duration-300 group-hover:bg-primary"></span>

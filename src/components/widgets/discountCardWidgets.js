@@ -24,13 +24,13 @@ const DiscountCardWidgets = () => {
     arrows: false,
     infinite: true,
     speed: 500,
-    slidesToShow: 5,
+    slidesToShow: 4,
     slidesToScroll: 1,
     responsive: [
       {
         breakpoint: 1400,
         settings: {
-          slidesToShow: 5,
+          slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
           dots: true
@@ -66,7 +66,7 @@ const DiscountCardWidgets = () => {
     ]
   };
   return (
-    <div className="py-8">
+    <div className="py-8 md:py-12">
       <div className="container">
         <Slider {...settings} className="common_carousel_dots">
           {

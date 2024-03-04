@@ -6,6 +6,10 @@ import TopCategoriesWidgets from "@/components/widgets/topCategoriesWidgets";
 import TestimonialWidgets from "@/components/widgets/testimonialWidgets";
 import BrandsWidgets from "@/components/widgets/brandsWidgets";
 import DiscountCardWidgets from "@/components/widgets/discountCardWidgets";
+
+export const metadata = {
+  title: "Animales Pet Shop"
+}
  
 
 export default async function Home() {

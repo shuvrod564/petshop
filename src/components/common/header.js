@@ -44,9 +44,9 @@ const Header = () => {
 
   return (
     <>
-      <div className={nav_sticky ? 'fixed top-0 left-0 w-full h-auto z-50 sticky_nav' : null}>
+      <div className={nav_sticky ? 'fixed top-0 left-0 w-full h-auto z-50 sticky_nav bg-white' : "bg-[#f2f2f260]"}>
         <nav className={`
-          bg-[#f2f2f260] shadow py-2 
+           shadow py-2 
         `}>
           <div className="container flex flex-row justify-between">
             <div className="inline-flex gap-3">
