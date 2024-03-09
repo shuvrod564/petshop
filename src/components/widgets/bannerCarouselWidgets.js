@@ -42,7 +42,7 @@ const BannerCarouselWidgets = () => {
       <div className="container py-6"> 
         <div className="shoadow border border-[#ddd]">
           <Image 
-            src={"/images/global/hero-banner.jpg"} 
+            src={"/images/global/banner-001.webp"} 
             width={1340} height={550} alt="thumbnail" 
             className=""
           />
