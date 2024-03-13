@@ -49,7 +49,7 @@ export function ProductDetailInfo(props) {
                 {
                     offers.map((item, index)=>{
                         return(
-                            <li className="flex gap-2">
+                            <li key={index} className="flex gap-2">
                                 <figure className="w-6 pt-1">
                                     <DiscountIcon />
                                 </figure>
