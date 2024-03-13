@@ -839,7 +839,7 @@ export function CategoryMegaMenu() {
                             data.map((item, index)=> {
                                 return(
                                     <li key={index} className=" group">
-                                        <Link href={"#"} className="block text-center text-dark text-lg">
+                                        <Link href={"/listing"} className="block text-center text-dark text-lg">
                                             <Image
                                                 src={item.icon} width={70} height={70} alt="thumb"
                                                 className="mx-auto"
@@ -864,7 +864,7 @@ export function CategoryMegaMenu() {
                                                                             item.categories?.map((facility, index)=>{
                                                                                 return(
                                                                                     <li key={index} className="flex items-center gap-2"> 
-                                                                                        <Link href={"#"} className="text-dark hover:text-primary capitalize">{facility.title}</Link>
+                                                                                        <Link href={"/listing"} className="text-dark hover:text-primary capitalize">{facility.title}</Link>
                                                                                     </li> 
                                                                                 )
                                                                             })

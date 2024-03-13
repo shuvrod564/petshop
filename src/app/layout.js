@@ -1,4 +1,4 @@
-import { Inter, Ubuntu } from "next/font/google";
+import { Poppins } from "next/font/google";
 import "./globals.css"; 
 import Header from "@/components/common/header";
 import SiteEssentialLinks from "@/components/common/siteEssentialLinks";
@@ -6,9 +6,9 @@ import SiteEsentialFeatures from "@/components/common/siteEsentialFeatures";
 import Footer from "@/components/common/footer";
 import BackToTop from "@/components/common/backToTop";
 
-const inter = Ubuntu({
+const poppins = Poppins({
   subsets: ["latin"],
-  variable: "--font-inter",
+  variable: "--font-poppins",
   weight: ['300','400','500','700'],
   display: "swap",
 });
@@ -32,7 +32,7 @@ export default async function RootLayout({ children }) {
         />
         <link rel="icon" type="image/x-icon" href={``}></link>
       </head>
-      <body className={` ${inter.className}`}>
+      <body className={` ${poppins.className}`}>
           <Header />
           {children}
           <SiteEssentialLinks />

@@ -29,7 +29,7 @@ const Footer = async({}) => {
                 <ul className="flex flex-col gap-2">
                   <li><Link href={"/"} className="text-border-color hover:text-primary focus:text-primary">Home</Link></li>
                   <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">About Us</Link></li>
-                  <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">Contact Us</Link></li>
+                  <li><Link href={"/contact"} className="text-border-color hover:text-primary focus:text-primary">Contact Us</Link></li>
                   <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">FAQ</Link></li>
                   <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">Offers</Link></li>
                 </ul>
@@ -39,7 +39,7 @@ const Footer = async({}) => {
                 <ul className="flex flex-col gap-2">
                   <li><Link href={"/"} className="text-border-color hover:text-primary focus:text-primary">Terms & Conditions</Link></li>
                   <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">Become a Merchant</Link></li>
-                  <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">Blog</Link></li>
+                  <li><Link href={"/blog"} className="text-border-color hover:text-primary focus:text-primary">Blog</Link></li>
                   <li><Link href={"#"} className="text-border-color hover:text-primary focus:text-primary">Policy</Link></li> 
                 </ul>
               </div>

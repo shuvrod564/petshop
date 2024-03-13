@@ -7,7 +7,7 @@ import { HiArrowRight } from "react-icons/hi2";
 import Image from "next/image";
 import { RiArrowRightLine } from "react-icons/ri";
 
-export function OtpLogin({setLoginType, logintype, isLoading}) {
+export function OtpLogin({setLoginType, logintype}) {
     
 
     return (
@@ -84,15 +84,15 @@ export function OtpLogin({setLoginType, logintype, isLoading}) {
                 </div>
               </div>
 
-              <div className=" md:mb-8 lg:mb-12 pt-3">
+              {/* <div className=" md:mb-8 lg:mb-12 pt-3">
                 <Link
-                  href="/register"
+                  href="/login"
                   className="inline-flex items-center gap-2.5 text-dark hover:text-primary text-lg font-medium"
                 >
                   <span>Register New Account </span>
                   <GoArrowRight className="text-xl" />
                 </Link>
-              </div>
+              </div> */}
             </form> 
         </>
     )

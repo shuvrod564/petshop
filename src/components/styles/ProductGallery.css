@@ -1,0 +1,25 @@
+.carousel .thumbs-wrapper { @apply m-0 relative mt-2 rounded-lg }
+.carousel .control-arrow { 
+    @apply top-0 bg-dark h-[calc(100%-7px)] mt-0 opacity-100
+}
+ 
+/* .carousel .thumbs { @apply whitespace-normal w-[75px] absolute top-0 right-0 } */
+.carousel .thumb { @apply border border-border-color p-0 }
+.carousel .thumb img { @apply h-16 object-contain }
+.carousel .thumb.selected, .carousel .thumb:hover { @apply border border-primary }
+.carousel .thumbs .thumb:nth-child(1) { @apply rounded-tl-lg rounded-bl-lg }
+.carousel .thumbs .thumb:last-child { @apply rounded-tr-lg rounded-br-lg mr-4 }
+
+.carousel .control-prev.control-arrow { @apply rounded-tl-lg rounded-bl-lg }
+.carousel .control-next.control-arrow { @apply rounded-tr-lg rounded-br-lg }
+
+/* .carousel .slider-wrapper { @apply w-[calc(100%-100px)] m-0 } */
+.carousel .slide img { @apply h-[450px] object-contain bg-bg-gray border border-border-color rounded-lg }
+
+
+.carousel-slider .control-next.control-arrow,
+.carousel-slider .control-prev.control-arrow,
+.carousel .control-dots,
+.carousel-status
+{ @apply hidden }
+ 

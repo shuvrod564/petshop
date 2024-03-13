@@ -1,0 +1,3 @@
+.size__item input:checked + label {
+    @apply border-primary text-primary
+}

@@ -1,0 +1,27 @@
+.multi-range-slider .bar-right,
+.multi-range-slider .bar-inner,
+.multi-range-slider .bar-left
+{ 
+    box-shadow: none !important;
+  }
+
+.multi-range-slider .thumb::before,
+.multi-range-slider .bar-inner,
+.multi-range-slider
+{
+    @apply border-0 shadow-none
+}
+
+.multi-range-slider {
+    padding: 3px 0 18px 0;
+}
+.multi-range-slider .thumb::before { 
+    width: 12px;
+    height: 12px;
+    margin-top: -4px;
+}
+
+.multi-range-slider .bar-inner,
+.multi-range-slider .bar-right,
+.multi-range-slider .bar-left 
+{ @apply h-1 p-0 }
