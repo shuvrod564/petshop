@@ -77,13 +77,13 @@ const TopCategoriesWidgets = ({title}) => {
               return(
                 <div key={index}>
                   <div className="text-center">
-                    <Link href={"#"} className="inline-block border-2 border-primary rounded-full" title={item.title}>
+                    <Link href={"/listing"} className="inline-block border-2 border-primary rounded-full" title={item.title}>
                       <Image src={item.thumbnail} width={200} height={200} alt={item.title} 
                         className="2xl:w-[191px] 2xl:h-[191px] xl:w-[150px] xl:h-[150px] lg:w-[160px] lg:h-[160px] sm:w-[150px] sm:h-[150px] w-[120px] h-[120px] rounded-full mx-auto"
                       /> 
                     </Link>
                     <h3 className="text-base md:text-lg">
-                      <Link href={"#"} className="text-dark hover:text-primary focus:text-primary" title={item.title}>{item.title}</Link>
+                      <Link href={"/listing"} className="text-dark hover:text-primary focus:text-primary" title={item.title}>{item.title}</Link>
                     </h3>
                     <p className="m-0 text-green">{item.off}</p>
                   </div>

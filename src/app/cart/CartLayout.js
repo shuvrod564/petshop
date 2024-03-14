@@ -84,7 +84,7 @@ export function CartLayout(props) {
                             {/* border */}
                         </div>
                         <div className="w-full lg:w-[30%] 2xl:w-[380px] mt-10 lg:mt-0">
-                            <PriceDetails />
+                            <PriceDetails page="cart" />
                         </div>
                     </div>
                 </div>

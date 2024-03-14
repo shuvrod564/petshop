@@ -36,7 +36,7 @@ export function PriceDetails({page=''}) {
                         </li>
                     </ul>
                     {
-                        page != 'checkout' && (
+                        page != 'checkout' || page != 'payment' && (
                             <div className="mt-8 md:mt-10 mb-10 md:mb-12"> 
                                 <div className="border border-dashed border-primary rounded-lg p-2 flex">
                                     <input type="text"
@@ -56,15 +56,24 @@ export function PriceDetails({page=''}) {
                 </div>
             </div>
             {
-                page == 'checkout' ? (
+                page == 'checkout' && (
                     <>
-                        <button className="btn-primary w-full text-center justify-center font-medium uppercase h-[51px] items-center mt-8">Place Order</button>
+                        <Link href={"/checkout/payment"} className="btn-primary w-full text-center justify-center font-medium uppercase h-[51px] items-center mt-8">Place Order</Link>
                     </> 
-                ) : (
+                ) 
+            }
+            {
+                page == 'cart' && (
                     <>
                         <p className="text-primary mt-5 mb-8 text-base md:text-lg">You will save ₹397 on this order</p>
                         <Link href={"/checkout"} className="btn-primary w-full text-center justify-center font-medium uppercase h-[51px] items-center">Checkout</Link>
                     </>
+
+                )
+            }
+            {
+                page == 'payment' && (
+                    <button className="btn-primary w-full text-center justify-center font-medium uppercase h-[51px] items-center mt-8">continue</button>
                 )
             }
         </>

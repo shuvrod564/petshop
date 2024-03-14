@@ -33,37 +33,12 @@ const brands = [
   { title: "Liverel" },{ title: "Neuromind" },{ title: "Bassett'S" },{ title: "4Head" }, 
   { title: "Abidec" },{ title: "Acnecide" },{ title: "Acriflex" },{ title: "Acuvue" }, 
   { title: "Alberto" },{ title: "Airwaves" },{ title: "After Bite" },{ title: "Safe & Sound" }, 
-  { title: "Alvita" },{ title: "Durex" },{ title: "Clearasil" },{ title: "E45" }, 
-  { title: "Gaviscon" },{ title: "Lemsip" },{ title: "Lanacane" },{ title: "Disprin" }, 
-  { title: "Fybogel" },{ title: "Guardium" },{ title: "Veet" },{ title: "Senocalm" }, 
-  { title: "Senokot" },{ title: "Steradent" },{ title: "Sweetex" },{ title: "Conceive Plus" }, 
-  { title: "L'Oreal Paris" },{ title: "Vaseline" },{ title: "Dove" },{ title: "V05" }, 
-  { title: "Radox" },{ title: "Badedas" },{ title: "Lynx" },{ title: "Simple" }, 
-  { title: "Sure" },{ title: "Brylcreem" },{ title: "Tresemme" },{ title: "Impulse" }, 
-  { title: "Matey" },{ title: "Buttercup" },{ title: "Tiger" },{ title: "Dentu Creme" }, 
-  { title: "Metatone" },{ title: "Wernets" },{ title: "Niquitin" },{ title: "Hedex" }, 
-  { title: "Phillips" },{ title: "TCP" },{ title: "Jungle Formula" },{ title: "Bio-Oil" }, 
-  { title: "Solpadeine" },{ title: "Galpharm" },{ title: "Nytol" },{ title: "Lactacyd" }, 
-  { title: "Wartner" },{ title: "Dermalex" },{ title: "Xls-Medical" },{ title: "Becodefence" }, 
-  { title: "Kleenex" },{ title: "Kotex" },{ title: "Andrex" },{ title: "Fiesta" }, 
-  { title: "Huggies" },{ title: "Depend" },{ title: "Childs Farm" },{ title: "Pregnacare" }, 
-  { title: "Arnicare" },{ title: "Rescue" },{ title: "Nelson" },{ title: "Spatone" }, 
-  { title: "Solgar" },{ title: "Sambucol" },{ title: "Skin Doctors" },{ title: "Promensil" }, 
-  { title: "Colgate" },{ title: "Sanex" },{ title: "Nivea" },{ title: "Atrixo" }, 
-  { title: "Elastoplast" },{ title: "Eucerin" },{ title: "Oilatum" },{ title: "Radian B" }, 
-  { title: "Savlon" },{ title: "Eucryl" },{ title: "Nizoral" },{ title: "Covonia" }, 
-  { title: "Virasorb" },{ title: "Tixylix" },{ title: "Flexitol" },{ title: "Windsetlers" }, 
-  { title: "K Y" },{ title: "Cerumol" },{ title: "Cetraben" },{ title: "Zoflora" }, 
-  { title: "Ultra Chloraseptic" },{ title: "Ricola" },{ title: "Hermesetas" },{ title: "Old Spice" }, 
-  //  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  |  | Blistex | Just for Men | Mum | Kwai | Breathe Right | Chap Stick | Equazen | Happinose | Freederm | Grecian | Otex | InfaCare | Wash & Go | MacuShield | Ibuleve | Doublebase | Dragonfly | Gillette | Murine | Potter's Herbals | Aveeno | Carefree | Clean & Clear | Colpermin | Daktarin | Imodium | Neutrogena | Sudafed | Calcough | Answer | Arm & Hammer | Batiste | First Response | Femfresh | Nair | Bodyform | Tempo | Tena | Clairol | Wella | Redoxon | Cuticura | Perspirex | Riemann | Soft & Gentle | Anadin | Aquafresh | Pro:Voke | Corsodyl | Biotene | Beechams | Nexium | Lamisil | Eno | Emergen-C | Piri | Panadol | Sensodyne | Robitussin | Preparation H | Poligrip | Schwarzkopf | Fenjal | Bionsen | Plantur | Ambre | Garnier | Right Guard | Head & Shoulders | Olay | Vicks | Fixodent | Aussie | Pampers | Pantene | Tampax | Always | Herbal Essences | Braun | Dulcolax | Nannycare | Bickiepegs | Compeed | Canderel | J.L Bragg's | Brulidine | Stute | Floradix | Dioralyte | Toofypegs | Palmer's | Complan | Drapolene | Heinz Farley's | Wassen | Otovent | Sea-Bands | Yardley | Sebamed | Bblonde | Aqua Ban | Elegant Touch | Wilkinson Sword | Melrose | Epaderm | Lil-Lets | Triple Dry | CCS | Mackenzies | Wisdom | BIC 1 | Brut | Orovite | Nappy Sacks | Pears | Pin-Up | Ponds | Proctor's | Pro Plus | Cymex | Ever Ready | Astral | Filtro Neto | Simpkins | Yeast Vite | Efamol
+  { title: "Alvita" },{ title: "Durex" },{ title: "Clearasil" },{ title: "E45" },  
 
 ]
 const products = [
   { title: "Regaine For Dogs Extra Strength Solution - 3 Month Supply" }, { title: "Germoloids Triple Action Fleas & Ticks Ointment" }, { title: "Sanatogen A-Z Complete Multivitamin , 90 Treats" },
-  { title: "Vitabiotics Ultra Omega 3 60 Chews" }, { title: "Vitabiotics Diabetone Plus Omega-3 Chews 28S And Treats 28S" }, { title: "Seven Seas Perfect7 Dog Chews & Treats" },
-  { title: "Seven Seas" }, { title: "Cod Liver Oil Liquid - Traditional | 1 x 450ml" }, { title: "Deep Heat Fast Relief Muscle Rub, 67g" },
-  { title: "Voltarol Back & Joint Pain Relief Gel - 100 g" }, { title: "Seven Seas" }, { title: "Cod Liver Oil Liquid - Traditional" },
-  { title: "Seven Seas Perfect7 Cat Chews & Treats" }, { title: "Voltarol Back and Joint Pain Relief - Gel 30 g" }, { title: "Seven Seas Joint Care Supplex & Turmeric,60 Treats" }, 
+  { title: "Vitabiotics Ultra Omega 3 60 Chews" }, { title: "Vitabiotics Diabetone Plus Omega-3 Chews 28S And Treats 28S" }, { title: "Seven Seas Perfect7 Dog Chews & Treats" }, { title: "Seven Seas" } 
 ]
 const topCategories = [ 
   { title: "Petcare" },{ title: "Pet Remedies" },{ title: "By Pet Type" },{ title: "Dental Care" },
@@ -141,7 +116,7 @@ const SiteEssentialLinks = async({}) => {
             brands.map((item, index)=> {
               return(
                 <span key={index} className="link">
-                  <Link href={"#"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
+                  <Link href={"/listing"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
                     {item.title}
                   </Link> 
                 </span>
@@ -156,7 +131,7 @@ const SiteEssentialLinks = async({}) => {
             products.map((item, index)=> {
               return(
                 <span key={index} className="link">
-                  <Link href={"#"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
+                  <Link href={"/listing"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
                     {item.title}
                   </Link> 
                 </span>
@@ -171,7 +146,7 @@ const SiteEssentialLinks = async({}) => {
             topCategories.map((item, index)=> {
               return(
                 <span key={index} className="link">
-                  <Link href={"#"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
+                  <Link href={"/listing"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
                     {item.title}
                   </Link> 
                 </span>
@@ -189,7 +164,7 @@ const SiteEssentialLinks = async({}) => {
                     item.products.map((item, index)=> {
                       return(
                         <span key={index} className="link">
-                          <Link href={"#"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
+                          <Link href={"/listing"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
                             {item.title}
                           </Link> 
                         </span>
@@ -209,7 +184,7 @@ const SiteEssentialLinks = async({}) => {
             populerSearch.map((item, index)=> {
               return(
                 <span key={index} className="link">
-                  <Link href={"#"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
+                  <Link href={"/listing"} className="inline text-sm lg:text-base text-[#747474] hover:text-primary focus:text-primary">
                     {item.title}
                   </Link> 
                 </span>

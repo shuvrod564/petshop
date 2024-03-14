@@ -44,11 +44,11 @@ export function ProductGallery(props) {
                 } 
             </Carousel>
             <div className="flex flex-row flex-wrap justify-between mt-5">
-                <Link href={'#'} className=" bg-green text-white px-6 h-14 rounded-lg inline-flex items-center justify-center gap-2.5 text-base md:text-lg font-medium hover:bg-gray focus:bg-gray active:bg-dark w-[calc(50%-0.25rem)]">
+                <Link href={'/cart'} className=" bg-green text-white px-6 h-14 rounded-lg inline-flex items-center justify-center gap-2.5 text-base md:text-lg font-medium hover:bg-gray focus:bg-gray active:bg-dark w-[calc(50%-0.25rem)]">
                     <CartWhiteIcon />
                     <span>Add To Cart</span>
                 </Link>
-                <Link href={'#'} className=" bg-primary text-white px-6 h-14 rounded-lg inline-flex items-center justify-center gap-2.5 text-base md:text-lg font-medium hover:bg-dark focus:bg-dark active:bg-gray w-[calc(50%-0.25rem)]">
+                <Link href={'/checkout'} className=" bg-primary text-white px-6 h-14 rounded-lg inline-flex items-center justify-center gap-2.5 text-base md:text-lg font-medium hover:bg-dark focus:bg-dark active:bg-gray w-[calc(50%-0.25rem)]">
                     <BoldWhiteIcon className="text-xl" />
                     <span>Buy Now</span>
                 </Link>
