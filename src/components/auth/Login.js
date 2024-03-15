@@ -63,7 +63,7 @@ const Login = () => {
                   <button
                     type="button" 
                     onClick={()=>setLoginType('otp')}
-                    className="w-full flex items-center justify-between px-5 h-12 rounded-xl bg-[#F5F5F5] border border-primary text-primary text-base font-medium hover:bg-primary-light"
+                    className="w-full flex items-center justify-between px-5 h-12 rounded-xl bg-[#F5F5F5] border border-primary text-primary text-base font-medium hover:bg-primary-light hover:text-white"
                   >
                     <span>Login With OTP</span>
                     <GoArrowRight className="text-xl" />
@@ -81,7 +81,7 @@ const Login = () => {
                 <div className="grid grid-cols-2 gap-2.5 sm:gap-5">
                   <button
                     type="button"
-                    className="w-full flex items-center justify-center gap-2.5 h-12 bg-bg-gray text-dark text-lg hover:bg-primary-light hover:text-primary rounded-lg"
+                    className="w-full flex items-center justify-center gap-2.5 h-12 bg-bg-gray text-dark text-lg hover:bg-secondary hover:text-primary rounded-lg"
                   >
                     <Image
                       src={"/images/icons/facebook.svg"}
@@ -92,7 +92,7 @@ const Login = () => {
                   </button>
                   <button
                     type="button"
-                    className="w-full flex items-center justify-center gap-2.5 h-12 bg-bg-gray text-dark text-lg hover:bg-primary-light hover:text-primary rounded-lg"
+                    className="w-full flex items-center justify-center gap-2.5 h-12 bg-bg-gray text-dark text-lg hover:bg-secondary hover:text-primary rounded-lg"
                   >
                     <Image
                       src={"/images/icons/google.svg"}

@@ -46,7 +46,7 @@ export function ProductCard(props) {
                         </div> 
                       )
                     }
-                    <div className="flex justify-center items-center gap-3 flex-wrap">
+                    <div className="flex justify-center items-center gap-3 flex-wrap mb-4">
                       <span className="text-primary group-hover:text-white text-sm sm:text-sm md:text-base font-medium transition-all duration-300">{props.item.price}</span>
                       {
                         props.title != 'Best Selling Products' && ( 
@@ -54,14 +54,14 @@ export function ProductCard(props) {
                         )
                       }
                     </div>
-                    <div className="text-center sm:mb-5 sm:mt-2.5 mt-1.5 mb-2"> 
+                    {/* <div className="text-center sm:mb-5 sm:mt-2.5 mt-1.5 mb-2"> 
                       <div className="relative inline-block px-6 pt-1 pb-2 bg-[#ADDFFF] leading-[1.1]"> 
                         <span className="text-[10px] sm:text-xs text-primary relative z-20">UP TO {props.item.discount} OFF</span>
                         <span className="block w-3 h-full bg-white absolute top-0 left-0 clip-left transition-all duration-300 group-hover:bg-primary"></span>
                         <span className="block w-3 h-full bg-white absolute top-0 right-0 clip transition-all duration-300 group-hover:bg-primary"></span>
                       </div>
-                    </div>
-                    <Link href={"#"} className="text-xs sm:text-xs md:text-sm px-4 sm:py-2 py-2 sm:min-w-[140px] sm:min-h-[34px] bg-border-color text-white rounded-[10px] hover:bg-primary-light hover:text-primary inline-flex items-center gap-2 group-hover:text-primary group-hover:bg-white group-hover:hover:text-green group-hover:font-medium">
+                    </div> */}
+                    <Link href={"/cart"} className="text-xs sm:text-xs md:text-sm px-4 sm:py-2 py-2 sm:min-w-[140px] sm:min-h-[34px] bg-border-color text-white rounded-[10px] hover:bg-primary-light hover:text-primary inline-flex items-center gap-2 group-hover:text-primary group-hover:bg-white group-hover:hover:text-green group-hover:font-medium">
                       <IoCartOutline className="text-base md:text-lg" />
                       <span>Add To Cart</span>
                     </Link>

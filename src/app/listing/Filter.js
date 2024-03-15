@@ -87,7 +87,7 @@ export function Filter(props) {
     return (
         <>
             <div className={`
-                w-full xl:max-w-[320px] lg:max-w-[280px] border border-border-color shadow-[0px_4px_20px_0px_rgba(40,130,255,0.15)] scroller-gray transition-all duration-300
+                w-full xl:max-w-[280px] lg:max-w-[280px] border border-border-color shadow-[0px_4px_20px_0px_rgba(40,130,255,0.15)] scroller-gray transition-all duration-300
                 ${props.res_filtermenu ? 'fixed w-full bg-[rgba(0,0,0,0.625)] top-0 left-0 z-[500] -translate-x-full' : 'static rounded-lg'}
                 ${props.openResMenu ? 'translate-x-0' : ''}
             `}>

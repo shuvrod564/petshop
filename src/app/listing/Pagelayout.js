@@ -34,7 +34,7 @@ export function Pagelayout(props) {
             <div className="flex flex-wrap flex-row items-start">
                 <Filter res_filtermenu={res_filtermenu} setResfiltermenu={setResfiltermenu} openResMenu={openResMenu} setOpenResMenu={setOpenResMenu} />
 
-                <div className="col xl:pl-12 lg:pl-9">
+                <div className="col lg:pl-9">
                     <ListingHeaderFilter openResMenu={openResMenu} setOpenResMenu={setOpenResMenu} />
 
                     <Listing />

@@ -72,7 +72,7 @@ const Header = () => {
 
             <div className="inline-flex justify-end items-center sm:gap-x-4 gap-0 col">
               <NavSearch />
-              <Link href={"/login"} className="text-dark inline-flex items-center gap-2 font-medium text-lg">
+              <Link href={"/login"} className="text-dark inline-flex items-center gap-2 font-medium text-lg ml-6">
                 <FaRegCircleUser className="text-xl" /> <span className="hidden sm:inline-block">Login</span>
               </Link>
               <Link href={"/cart"} className="text-dark inline-flex items-center gap-2 font-medium text-lg mx-4">
@@ -82,7 +82,7 @@ const Header = () => {
                 </span>
                  <span className="hidden sm:inline-block">Cart</span>
               </Link>
-              <Link href={"#"} className="border-2 border-[#E1AC18] inline-flex items-center gap-1 sm:gap-2 pl-1 md:pr-3 pr-1 py-1 rounded-3xl bg-white relative">
+              <Link href={"#"} className="border-2 border-[#E1AC18] inline-flex items-center gap-1 sm:gap-2 pl-1 md:pr-3 pr-1 py-1 rounded-3xl bg-white relative mr-3">
                 <Image src={"/images/icons/coin.svg"} width={30} height={30} alt="Coin" className=" w-4 h-4 md:w-[30px] md:h-[30px]" />
                 <span className="text-dark font-medium text-xs md:text-base absolute md:static -top-2 -right-3 bg-white px-1 rounded-lg md:bg-transparent">151</span>
               </Link>

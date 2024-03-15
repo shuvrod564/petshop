@@ -2,11 +2,16 @@
 import { BoxColoredIcon, KeyColoredIcon, UserColoredIcon, WhishColoredIcon } from '@/components/common/icons';
 import Image from 'next/image'
 import Link from 'next/link';
-import React, { useState } from 'react' 
+import { usePathname } from 'next/navigation';
+import React, { useState } from 'react'
+import { CiUser } from "react-icons/ci";
 import { HiOutlineChevronDown, HiOutlineChevronUp } from 'react-icons/hi2';
 
 const  UserLayout = ({children}) => {
     const [profileMenu, setProfileMenu] = useState(false)
+
+    const router = usePathname();
+
 
     return (
         <>
@@ -14,7 +19,7 @@ const  UserLayout = ({children}) => {
                 <div className="container">
                     <div className="flex flex-row flex-wrap">
                         <div className="2xl:w-[350px] xl:w-[300px] md:w-[240px] w-full">
-                            <div className="shadow-[0px_4px_20px_0px_rgba(40,130,255,0.15)] rounded-lg">
+                            <div className="shadow-[0px_4px_20px_0px_rgba(40,130,255,0.15)] rounded-lg lg:min-h-[700px] md:min-h-[600px]">
                                 <div className="bg-dark p-5 rounded-tl-lg rounded-tr-lg flex items-center">
                                     <figure className="2xl:w-[86px] 2xl:h-[86px] w-[60px] h-[60px] rounded-full bg-white flex items-center justify-center overflow-hidden border-2 border-white">
                                         <Image
@@ -61,19 +66,19 @@ const  UserLayout = ({children}) => {
                                         }
                                     </li>
                                     <li>
-                                        <Link href={"#"} className="flex items-center text-dark gap-4 py-3 md:py-4 border-b border-border-color">
+                                        <Link href={"/change-password"} className={`flex items-center text-dark gap-4 py-3 md:py-4 border-border-color ${router == '/change-password' ? 'bg-bg-gray rounded-lg border-bg-gray px-4 py-3 mt-3' : ' border-b'}`}>
                                             <KeyColoredIcon />
                                             <span className="lg:text-lg">Change Password</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={"#"} className="flex items-center text-dark gap-4 py-3 md:py-4 border-b border-border-color">
+                                        <Link href={"/orders"} className={`flex items-center text-dark gap-4 py-3 md:py-4 border-border-color ${router == '/orders' ? 'bg-bg-gray rounded-lg border-bg-gray px-4 py-3 mt-3' : ' border-b'}`}>
                                             <BoxColoredIcon />
                                             <span className="lg:text-lg">Orders</span>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href={"#"} className="flex items-center text-dark gap-4 py-3 md:py-4 border-b border-border-color">
+                                        <Link href={"/wishlist"} className={`flex items-center text-dark gap-4 py-3 md:py-4 border-border-color ${router == '/wishlist' ? 'bg-bg-gray rounded-lg border-bg-gray px-4 py-3 mt-3' : ' border-b'}`}>
                                             <WhishColoredIcon />
                                             <span className="lg:text-lg">WishList</span>
                                         </Link>

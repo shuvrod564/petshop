@@ -2,18 +2,13 @@
 import React from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
-import Link from 'next/link';
-import Image from 'next/image';
-import { IoCartOutline } from 'react-icons/io5';
-import { BsSuitHeart } from "react-icons/bs";
-import { HiHeart } from 'react-icons/hi2';
+import "slick-carousel/slick/slick-theme.css"; 
 import { ProductCard } from '../shared/ProductCard';
 
 const data = [
   {
     title: "Energizing Dog Food",
-    thumbnail: "/images/products/energizing-dog-food.png",
+    thumbnail: "/images/products/15e7dd34ddbb6563f254c05860fce1e3.png",
     category: "Gourmet Fido",
     price: "Rs. 299.00",
     prevprice: "Rs. 349.00",
@@ -21,7 +16,7 @@ const data = [
     off: "150",
   },
   {
-    title: "Energizing Dog Food",
+    title: "Tuna & Salmon Dry Food",
     thumbnail: "/images/products/energizing-dog-food.png",
     category: "Gourmet Fido",
     price: "Rs. 299.00",
@@ -31,8 +26,8 @@ const data = [
     wishlist: true
   },
   {
-    title: "Energizing Dog Food",
-    thumbnail: "/images/products/energizing-dog-food.png",
+    title: "Pupy Dry Formula Food",
+    thumbnail: "/images/products/AdultDogsFood_2 1.png",
     category: "Gourmet Fido",
     price: "Rs. 299.00",
     prevprice: "Rs. 349.00",
@@ -40,8 +35,8 @@ const data = [
     off: "150",
   },
   {
-    title: "Energizing Dog Food",
-    thumbnail: "/images/products/energizing-dog-food.png",
+    title: "Pet Soft Senior",
+    thumbnail: "/images/products/ce0a1d9a62c0b05ab034f73646bb5f3f.png",
     category: "Gourmet Fido",
     price: "Rs. 299.00",
     prevprice: "Rs. 349.00",
@@ -49,8 +44,8 @@ const data = [
     off: "150",
   },
   {
-    title: "Energizing Dog Food",
-    thumbnail: "/images/products/energizing-dog-food.png",
+    title: "Energetic Meat & Rice",
+    thumbnail: "/images/products/ce5d902723600ad49adc1cb1cc1bb3c0.png",
     category: "Gourmet Fido",
     price: "Rs. 299.00",
     prevprice: "Rs. 349.00",
@@ -66,7 +61,7 @@ const ProductsWidgets = ({title}) => {
     infinite: true,
     speed: 500,
     slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToScroll: 5,
     responsive: [
       {
         breakpoint: 1400,
